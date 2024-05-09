@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <title>Manage Products</title>
+</head>
+
+<body>
+
+    <div class = "topbar">
+        <div><img src = "../assets/TrioKartlogo.png">
+        
+            <div><p class = "poetsen-one-regular" id = "greeting">Add, Update or Remove Products</p></div>
+        
+        </div>
+        
+    </div>
+
+    <div class = "main">
+        <div class = "List">
+            <p class = "poetsen-one-regular">Car Parts:</p>
+            <table id = "car-parts">
+                <tr>
+                    <th class = "poetsen-one-regular">ProductID</th>
+                    <th class = "poetsen-one-regular">Product Name</th>
+                    <th class = "poetsen-one-regular">Product Price</th>
+                    <th class = "poetsen-one-regular">Quantity</th>
+                </tr>
+            </table>
+        </div>
+
+        <div class = "List2">
+            <p class = "poetsen-one-regular">Electronics:</p>
+            <table id = "electronics">
+                <tr>
+                    <th class = "poetsen-one-regular">ProductID</th>
+                    <th class = "poetsen-one-regular">Product Name</th>
+                    <th class = "poetsen-one-regular">Product Price</th>
+                    <th class = "poetsen-one-regular">Quantity</th>
+                </tr>
+            </table>
+        </div>
+
+        <div class = "List3">
+            <p class = "poetsen-one-regular">Grocery:</p>
+            <table id = "grocery">
+                <tr>
+                <th class = "poetsen-one-regular">ProductID</th>
+                <th class = "poetsen-one-regular">Product Name</th>
+                <th class = "poetsen-one-regular">Product Price</th>
+                <th class = "poetsen-one-regular">Quantity</th>
+                </tr>
+            </table>
+
+            
+        </div>
+
+        <select id="product-actions">
+            <option value="">Select an action</option>
+            <option value="add">Add Products</option>
+            <option value="update">Update Products</option>
+            <option value="delete">Delete Products</option>
+        </select>
+
+        <div id = "add-product-form-container"></div>
+        
+
+
+        <div class = "sidebar">
+        <div class = "products">
+            
+            <ion-icon name="home-outline"></ion-icon>
+            <p></p>
+            <a href = "../Title/index.html" class = "poetsen-one-regular" style="margin-left: 37px;">Home Page</a>
+        
+        
+        </div>
+        <div class = "products">
+
+            <ion-icon name="card-outline"></ion-icon>
+            <p></p>
+            <a href = "../Orders/orders.html" class = "poetsen-one-regular">View Orders</a>
+
+
+
+        </div>
+       
+        <div class = "products">
+
+            <ion-icon name="person-add-outline"></ion-icon>
+
+            <p></p>
+            <a href = "../AddAdmins/addadmins.html" class = "poetsen-one-regular">Manage Admins</a>
+
+        </div>
+
+        <div class = "products">
+
+            <ion-icon name="log-out-outline"></ion-icon>
+
+            <p></p>
+            <a href = "../SignIn/index.html" class = "poetsen-one-regular" style="margin-left: 45px;">Sign Out</a>
+
+        </div>
+        </div>
+
+        
+    </div>
+
+
+   
+    <script src="./front.js"></script>
+   
+</body>
+
+</html>

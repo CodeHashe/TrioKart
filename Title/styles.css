@@ -1,0 +1,86 @@
+#greeting{
+position: absolute;
+top:0%;
+right:35%;
+font-size:50px;
+}
+
+
+#background{
+
+    height:100%;
+    width: 100%;
+    opacity: 0.5;
+
+
+
+}
+
+html{
+
+    background-color:white;
+
+}
+
+img{
+
+    height:150px;
+    width:200px;
+
+
+
+}
+
+.topbar{
+    display: flex;
+    height:150px;
+    width:100%;
+    background-color: whitesmoke;
+
+
+}
+
+.poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.products{
+
+
+}
+
+.sidebar{
+
+background-color: whitesmoke;
+width:200px;
+height: 867px;
+
+
+
+}
+
+ion-icon{
+
+margin-top: 80px;
+margin-left: 80px;
+height:30px;
+width:30px;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 18px;
+  }
+  
+  a:hover {
+    color: blue; /* Change to your desired color */
+  }
+  
+
