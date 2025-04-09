@@ -1,0 +1,182 @@
+#greeting{
+    position: absolute;
+    top:0%;
+    right:35%;
+    font-size:50px;
+    }
+    
+    
+    #background{
+    
+        height:100%;
+        width: 100%;
+        opacity: 0.5;
+    
+    
+    
+    }
+    
+    html{
+    
+        background-color:white;
+    
+    }
+    
+    img{
+    
+        height:150px;
+        width:200px;
+    
+    
+    
+    }
+    
+    .topbar{
+        display: flex;
+        height:150px;
+        width:100%;
+        background-color: whitesmoke;
+    
+    
+    }
+    
+    .poetsen-one-regular {
+        font-family: "Poetsen One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    .products{
+    
+    
+    }
+    
+    .submit{
+
+
+    }
+
+    .sidebar{
+    
+    background-color: whitesmoke;
+    width:200px;
+    height: 867px;
+    position: absolute;
+    top:15%;
+    
+    
+    
+    }
+
+    #add-product-form-container{
+        position: absolute;
+        left:570px;
+        top:283px;
+
+    }
+    
+    #car-parts{
+        border: 1px solid;
+        border-radius: 10px;
+        border-color: black;
+        max-height: 300px; /* Adjust the height as needed */
+        overflow-y: auto; /* Enable horizontal scrolling */
+
+    }
+
+    .main{
+
+        height:867px;
+        width:100%;
+        background-color: whitesmoke;
+
+
+
+    }
+
+    .List{
+
+
+        margin-left: 300px;
+        max-height: 300px; /* Adjust the height as needed */
+        overflow-y: auto; /* Enable vertical scrolling */
+
+
+
+    }
+
+    .List2{
+
+        margin-left: 300px;
+        max-height: 200px; /* Adjust the height as needed */
+        overflow-y: auto; /* Enable vertical scrolling */
+
+
+    }
+
+    .List3{
+
+        margin-left: 300px;
+        max-height: 300px; /* Adjust the height as needed */
+        overflow-y: auto; /* Enable vertical scrolling */
+
+    }
+
+    #electronics{
+
+        border: 1px solid;
+        border-radius: 10px;
+        border-color: black;
+        max-height: 100px; /* Adjust the height as needed */
+        overflow-y: auto; /* Enable horizontal scrolling */
+    }
+
+    #grocery{
+        border: 1px solid;
+        border-radius: 10px;
+        border-color: black;
+        max-height: 300px; /* Adjust the height as needed */
+        overflow-y: auto; /* Enable horizontal scrolling */
+    }
+
+    #product-actions {
+        width: 200px; /* Adjust width as needed */
+        padding: 8px;
+        border: 1px solid #ccc;
+        margin-left: 300px;
+        margin-top: 20px;
+        
+    }
+
+
+
+    ion-icon{
+    
+    margin-top: 80px;
+    margin-left: 80px;
+    height:30px;
+    width:30px;
+    
+    
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        text-align: center;
+        margin-left: 18px;
+      }
+      
+      a:hover {
+        color: blue; /* Change to your desired color */
+      }
+      
+    
+.Car-Parts{
+
+
+
+
+
+}    

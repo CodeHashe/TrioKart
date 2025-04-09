@@ -1,0 +1,25 @@
+
+
+.products{
+    font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+    height:90px;
+    width:90px;
+}
+#products-list{
+    font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+    height:90px;
+    width:90px;
+    display: grid;
+}
+
+img{
+    height:90px;
+    width:90px;
+}
+
+.cart-count{
+    font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+    color:red;
+    background-color: black
+}
+

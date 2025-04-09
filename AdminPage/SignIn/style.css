@@ -1,0 +1,157 @@
+.signIn{
+    background-color: whitesmoke;
+    height:500px;
+    width:500px;
+    margin-left: 660px;
+    margin-top:300px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+#text{
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+#emailForm{
+
+    margin-left: 70px;
+
+
+}
+
+#logo{
+
+    height:100px;
+    width:100px;
+
+
+}
+
+#signIn {
+    border-radius: 30px;
+    border-width: 0px;
+    background-color: gray;
+    color: white;
+    width: 108px;
+    height: 28px;
+    font-size: 20px;
+    margin-top: 70px;
+    margin-left: 140px;
+  
+    /* Add for smooth transitions */
+    transition: background-color 0.3s ease; 
+  }
+  
+  #signIn:hover {
+    background-color: #454545; /* Darker gray on hover */
+  }
+
+  #signIn .spinner {
+    display: inline-block;
+    width: 16px; 
+    height: 16px;
+    margin-left:10px;
+    position:relative;
+    border: 2px solid black; 
+    border-radius: 50%;
+    border-top-color: white; /* Your desired spinner color */
+    animation: spin 0.8s linear infinite;
+    opacity: 0;  /* Hidden initially */
+  }
+
+  #signIn.loading { 
+    color: transparent; /* Hide the text */
+  }
+  
+  #signIn.loading .spinner { 
+    margin-left: 0; /* Reset margin */
+    position: absolute;
+    top: 70%;
+    left: 47%;
+    transform: translate(-50%, -50%);  /* Center the spinner */
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  
+  
+
+
+#adminEmail{
+
+    width:260px;
+    border-top:0px;
+    border-right:0px;
+    border-left: 0px;
+    border-radius: 10px;
+    margin-left: 60px;
+
+
+    
+}
+
+#passForm{
+
+    margin-left: 70px;
+
+}
+
+#loginForm{
+
+
+}
+
+#adminPass{
+
+    width:260px;
+    border-top:0px;
+    border-right:0px;
+    border-left: 0px;
+    border-radius: 10px;
+    margin-left:60px;
+
+
+
+}
+
+#detailsText{
+
+
+    margin-left: 165px;
+
+
+}
+
+
+#details{
+
+
+    text-align: left;
+    padding-left: 50px;
+    padding-top:20px;
+    
+
+
+}
+
+.montserrat{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+
+html{
+
+    background-color: white;
+
+
+
+}

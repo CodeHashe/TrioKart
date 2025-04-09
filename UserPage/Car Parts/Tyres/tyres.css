@@ -1,0 +1,118 @@
+.cart-details {
+    position: absolute; /* Keep the cart fixed on the screen */
+    top: 50px; /* Position at the top of the viewport */
+    right: 50px; /* Position at the right edge of the viewport */
+    width: 300px; /* Set a fixed width for the cart */
+    background-color: #fff; /* Set background color to white */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); /* Add a slight shadow effect */
+    padding: 15px; /* Add some padding for content */
+    display: none; /* Initially hide the cart details */
+    z-index: 10; /* Ensure the cart details are displayed above other elements */
+  }
+  
+  .cart-details.cart-details-show { /* Optional class for animation */
+    animation: cart-show 0.3s ease-in-out forwards; /* Add a smooth slide-in animation */
+  }
+  
+  @keyframes cart-show {
+    from {
+      opacity: 0;
+      transform: translateX(100%); /* Slide in from the right */
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0); /* End animation at the right edge */
+    }
+  }
+  
+
+.h-img {
+    height: 170px;
+    width: 270px;
+    margin-left: 25px;
+}
+
+.product-name {
+    margin-left: 400px;
+    margin-top: -150px;
+    font-size: 20px;
+    color: darkslategrey;
+    transition: text-decoration 0.3s ease, color 0.3s ease;
+}
+
+.product-name:hover {
+    text-decoration: underline;
+    color: red;
+    cursor: pointer;
+}
+
+.product-price {
+    margin-top: 50px;
+    margin-left: 400px;
+}
+
+.product-quantity {
+    margin-top: 50px;
+    margin-left: 115px;
+}
+
+.product-buy {
+    margin-left: 875px;
+    margin-top: -10px;
+    height: 35px;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    position: absolute;
+    background-color: darkslategrey;
+    color: white;
+    transition: border 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+.product-cart {
+    margin-left: 1075px;
+    margin-top: -50px;
+    height: 35px;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    position: absolute;
+    background-color: darkslategrey;
+    color: white;
+    transition: border 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+.product-buy:hover,
+.product-cart:hover,
+.h1-buy:hover {
+    border: 3px solid darkslategrey;
+    background-color: white;
+    color: darkslategrey;
+    cursor: pointer;
+}
+
+.h1-buy {
+    margin-left: 85px;
+    padding: 10px;
+    padding-left: 45px;
+    padding-right: 45px;
+    border-radius: 30px;
+}
+
+.h1 {
+    margin-top: 275px;
+    margin-left: 15px;
+    font-family: Montserrat;
+    color: darkslategrey;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.h1:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.h1-price {
+    margin-left: 15px;
+    margin-top: -20px;
+}

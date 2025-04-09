@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Contact Us-Trio Kart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <style>
+         .TittleBar{
+            background-color: darkslategrey;
+            height: 200px;
+            display: flex;
+            align-items: center;
+        }
+        .T{
+            font-family: Roboto;
+            color: white;
+            display: inline-block;
+            text-align: center;
+            margin-left: 45px;
+            font-size: 30px;
+            margin-bottom: 20px;+
+        }
+        .tag-line{
+            color: white;
+            display: inline-block;
+            margin-top: 40px;
+        }
+        .l{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(205, 96, 96);
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+            margin-right: 100px;
+        }
+        .l-img{
+            max-width: 100%;
+            max-height: 100%;
+            border-radius: 50%;
+        }
+        .trio-logo{
+            height: 200px;
+            width: 200px;
+        }
+        .TrioKart{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 50px;
+        }
+       .H{
+        margin-top: 140px;
+        margin-left: -520px;
+        transition: margin-top 0.3s ease;
+       }
+       .H:hover{
+        margin-top: 140px;
+       }
+        .h{
+            color: white;
+            font-size: 18px;
+            font-family: Arial, sans-serif;
+            text-decoration: none;
+           transition: text-decoration 0.3s ease,color 0.3s linear,background-color 0.3s linear, padding-top 0.3s ease, padding-bottom 0.3s ease;
+        }
+        .h:hover{
+            text-decoration: underline;
+            color:  darkslategrey;
+            padding-top: 5px;
+            padding-bottom: 18px;
+            background-color: white;
+            
+            cursor: pointer;
+        }
+        .Gro{
+            position: relative;
+            color: white;
+            margin-top: 139px;
+            margin-left: 25px;
+            font-size: 18px;
+            font-family: Arial, sans-serif;
+            transition: text-decoration 0.3s ease,color 0.3s linear,background-color 0.3s linear;
+        }
+        
+        .Gro:hover{
+            color:  darkslategrey;
+            background-color: white;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        .elec{
+            color: white;
+            margin-top: 138px;
+            margin-left: 25px;
+            font-size: 18px;
+            font-family: Arial, sans-serif;
+            position: relative;
+            transition: text-decoration 0.3s ease,color 0.3s linear,background-color 0.3s linear;
+        }
+        .elec:hover{
+            color:  darkslategrey;
+            background-color: white;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        .parts{
+            color: white;
+            margin-top: 138px;
+            margin-left: 25px;
+            font-size: 18px;
+            font-family: Arial, sans-serif;
+            position: relative;
+            transition: text-decoration 0.3s ease,color 0.3s linear,background-color 0.3s linear;
+        }
+        .parts:hover{
+            color:  darkslategrey;
+            background-color: white;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        .BLOG{
+            margin-top: 138px;
+            margin-left: 25px;
+        transition: margin-top 0.3s ease;
+       }
+       .BLOG:hover{
+        margin-top: 140px;
+       }
+       .BL{
+            color: white;
+            font-size: 18px;
+            font-family: Arial, sans-serif;
+            text-decoration: none;
+           transition: text-decoration 0.3s ease,color 0.3s linear,background-color 0.3s linear, padding-top 0.3s ease, padding-bottom 0.3s ease;
+        }
+        .BL:hover{
+            text-decoration: underline;
+            color:  darkslategrey;
+            padding-top: 5px;
+            padding-bottom: 18px;
+            background-color: white;
+            
+            cursor: pointer;
+        }
+        .dropdown-content {
+            display: none; 
+            position: absolute;
+            top: 100%; 
+            left: 0;
+            background-color: white;
+            min-width: 190px;
+            z-index: 1;
+        }
+        .parts:hover .dropdown-content {
+        display: block; 
+        }
+        .elec:hover .dropdown-content {
+        display: block; 
+        }
+            .Gro:hover .dropdown-content{
+        display: block; 
+        overflow-y: auto; 
+        max-height: 200px; 
+    }
+    .dropdown-content a {
+       color: darkslategrey;
+        padding: 12px 16px;
+        display: block;
+        text-decoration: none;
+    }
+
+    .dropdown-content a:hover {
+        text-decoration: underline;
+    }
+        .top{
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+            margin-left: 200px;
+            margin-top: 25px;
+        }
+        .search-logo{
+            height: 25px;
+            width: 25px;
+            margin-bottom: 25px;
+        }
+        .person-logo{
+            display: inline-block;
+            height: 50px;
+            width: 50px;
+            margin-top: 8px;
+            border: none;
+            border-radius: 50%;
+            margin-bottom: 25px;
+            margin-right: 15px;
+            transition: box-shadow 0.3s ease;
+
+        }
+        .person-logo:hover,
+        .cart-logo:hover{
+            cursor: pointer;
+            box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.8);
+        }
+        .like-logo{
+            display: inline-block;
+            height: 30px;
+            width: 30px;
+            margin-right: 15px;
+            margin-top: 1px;
+            border: none;
+            border-radius: 50%;
+            margin-bottom: 25px;
+            transition: transform 0.3s ease;
+        }
+        .like-logo:hover{
+            cursor: pointer;
+            transform: translateY(-5px);
+        }
+        .cart-logo{
+            display: inline-block;
+            height: 50px;
+            width: 50px;
+            margin-right: 100px;
+            margin-bottom: 20px;
+            border-radius: 50%;
+            transition: box-shadow 0.3s ease;
+        }
+        .search-text{
+            background-color:  darkslategrey;
+            border: none;
+            color: white;
+            font-size: 17px;
+            width: 125px;
+            border-bottom: 2px solid white; /* Add underline */
+            margin-right: 15px;
+            margin-bottom: 25px;
+        }
+        .search-text::placeholder{
+            color: white;
+        }
+        .background {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 150vh;
+            margin: 0;
+            background-color: grey;
+            overflow: hidden;
+            position: relative;
+           
+        }
+        .Heading{
+           
+           margin-bottom: 750px;
+           margin-left: -30px;
+            text-decoration: underline;
+            color: black;
+            font-size: 35px;
+            font-family: Roboto;
+            text-align: start;
+           
+        }
+        .Description{
+            font-size: 18px;
+            color: black;
+            font-family: Roboto;
+            text-align: start;
+           margin-bottom: 565px;
+            margin-left: -170px;
+            position: relative;
+        }
+        .contact-name{
+            margin-left: -280px;
+            font-size: 18px;
+            font-family: Roboto;
+            text-align: start;
+            position: relative;
+            color: black;
+            margin-bottom: 400px;
+        }
+        .div-name{
+            margin-top: -310px;
+            margin-left: -47px;
+        }
+        .Input-name{
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            width: 300px;
+            height: 10px;
+            border: 3px solid darkslategrey;
+            color: darkslategrey;
+            font-family: Roboto;
+            font-size: 18px;
+            
+        }
+        .div-phone{
+            margin-top: -115px;
+            margin-left: -120px;
+        }
+        .contact-phone{
+            margin-top: -170px;
+            margin-left: -325px;
+            font-size: 18px;
+            font-family: Roboto;
+            text-align: start;
+            position: relative;
+            color: black;
+        }
+        .contact-email{
+            margin-top: 15px;
+            margin-left: -325px;
+            font-size: 18px;
+            font-family: Roboto;
+            text-align: start;
+            position: relative;
+            color: black;
+        }
+        .div-email{
+            margin-top: 70px;
+            margin-left: -45px;
+        }
+        .Input-email{
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            width: 300px;
+            height: 10px;
+            border: 3px solid darkslategrey;
+            color: darkslategrey;
+            font-family: Roboto;
+            font-size: 18px;
+        }
+        .contact-comment{
+            margin-top: 197px;
+            margin-left: -323px;
+            font-size: 18px;
+            font-family: Roboto;
+            text-align: start;
+            position: relative;
+            color: black;
+        }
+        .div-comment{
+            margin-top: 380px;
+            margin-left: -80px;
+        }
+        .Input-comment{
+           
+            width: 350px;
+            height: 150px;
+            border: 3px solid darkslategrey;
+            color: darkslategrey;
+            font-family: Roboto;
+            font-size: 18px;
+        }
+        .contact-submit{
+            background-color: darkslategrey;
+            color: white;
+            border: 3px solid white;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 700px;
+            margin-left: -350px;
+            width: 200px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            transition:  text-decoration 0.3s ease,background-color 0.3s ease,color 0.3s ease,border 0.3s ease ;
+        }
+        .contact-submit:hover{
+            text-decoration: bold;
+            background-color: white;
+            color: darkslategrey;
+            border: 3px solid darkslategrey;
+            cursor: pointer;
+        }
+        .Link{
+            color:  #0000FF;
+            font-family: Roboto;
+            text-decoration: none;
+            transition:  text-decoration 0.3s ease;
+        }
+        .Link:hover{
+            text-decoration: underline;
+        }
+        .Address{
+            color: darkslategrey;
+            font-family: Roboto;
+            width: 350px;
+            margin-top: 60px;
+            margin-left: -320px;
+        }
+        .Address-span{
+            transition: text-decoration 0.3s ease;
+        }
+        .Address-span:hover{
+            cursor: pointer;
+            text-decoration: underline;
+        }
+        .contact-img{
+            height: 300px;
+            width: 500px;
+            margin-left: 450px;
+            margin-bottom: 440px;
+            transition: height 0.5s ease,width 0.5s ease;
+        }
+        .contact-img:hover{
+            height: 350px;
+            width: 550px;
+            cursor: pointer;
+        }
+        .Bottom{
+            background-color: #232323;
+            height: 650px;
+            display: flex;
+        }
+        .d{
+            margin-top: 40px;
+            margin-left: 110px;
+            display: inline-block;
+        }
+        .e{
+            border-color: white;
+            background-color: #232323;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-left: 15px;
+            width: 250px;
+            
+        }
+        .s{
+            border-color: none;
+            background-color: white;
+            color: black;
+           margin-top: 15px;
+            padding-top: 17px;
+            padding-bottom: 17px;
+            width: 200px;
+            transition: background-color 0.3s ease;
+            transition: color 0.3s ease;
+        }
+        .s:hover{
+            cursor: pointer;
+            background-color: black;
+            color: white;
+        }
+        .q{
+            color: white;
+            font-size: 20px;
+            font-family: Arial, sans-serif;
+            margin-top: 55px;
+        }
+        .r{
+            color: gray;
+            font-size: 15px;
+            font-family: Arial, sans-serif;
+            text-decoration: none;
+           
+        }
+        .r:hover{
+            text-decoration: underline;
+            cursor: pointer;
+            color: white;
+        }
+        .copywrite{
+            color: gray;
+            font-size: 15px;
+            font-family: Arial, sans-serif;
+            margin-top: 85px;
+        }
+        .B{
+            margin-top: 222px;
+        }
+        .m-img{
+            height: 25px;
+            width: 25px;
+            
+        }
+        .mail{
+            color: gray;
+            font-size: 15px;
+            font-family: Arial, sans-serif;
+           margin-left: 20px;
+           
+        }
+        .socialmedia{
+            display: inline-block;
+        }
+        .facebook-logo{
+            height: 40px;
+            width: 40px;
+            border: none;
+            margin-top: 30px;
+            border-radius: 50%;
+            font-size: 18px;
+            background-color: white;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            transition: box-shadow 0.3s ease;
+        }
+        .contact-facebook-logo{
+            height: 40px;
+            width: 40px;
+            border: none;
+            margin-top: -430px;
+            margin-left: 490px;
+            border-radius: 50%;
+            font-size: 18px;
+            background-color: white;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            transition: box-shadow 0.3s ease;
+        }
+        .insta-img{
+            height: 20px;
+            width: 20px;
+            border: none;
+        }
+        .twitter-img{
+            height: 20px;
+            width: 20px;
+            border: none;
+        }
+        .linkdin-img{
+            height: 20px;
+            width: 20px;
+            border: none;
+        }
+        .instagram-logo{
+              margin-left: 20px;
+              height: 45px;
+            width: 45px;
+            border-radius: 50%;
+            border: none;
+            background-color: white;
+            transition: box-shadow 0.3s ease;
+        }
+        .contact-instagram-logo{
+              margin-left: 50px;
+              margin-top: -428px;
+              height: 45px;
+            width: 45px;
+            border-radius: 50%;
+            border: none;
+            background-color: white;
+            transition: box-shadow 0.3s ease;
+        }
+        .twitter-logo{
+            margin-left: 20px;
+              height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            border: none;
+            background-color: white;
+            transition: box-shadow 0.3s ease;
+        }
+        .contact-twitter-logo{
+            margin-left: 50px;
+            margin-top: -425px;
+              height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            border: none;
+            background-color: white;
+            transition: box-shadow 0.3s ease;
+        }
+        .linkdin-logo{
+            margin-left: 135px;
+              height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            border: none;
+            margin-top: 15px;
+            background-color: white;
+            transition: box-shadow 0.3s ease;
+        }
+        .contact-linkdin-logo{
+            margin-left: 65px;
+              height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            border: none;
+            margin-top: -425px;
+            background-color: white;
+            transition: box-shadow 0.3s ease;
+        }
+        .linkdin-logo:hover,
+        .twitter-logo:hover,
+        .facebook-logo:hover,
+        .instagram-logo:hover,
+        .contact-facebook-logo:hover,
+        .contact-instagram-logo:hover,
+        .contact-twitter-logo:hover,
+        .contact-linkdin-logo:hover{
+            cursor: pointer;
+            box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.8);
+        }
+       .cards{
+        display: flex;
+        justify-content: center;
+        margin-top: 590px;
+        margin-left: 100px;
+       }
+       .visa-logo,
+        .mastercard-logo {
+            height: 30px;
+            width: 60px;
+            margin-right: 10px;
+            border-radius: 5px;
+        }
+        .map {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px; 
+    }
+
+    .map-img {
+        max-width: 100%; 
+        max-height: 100%; 
+        border-radius: 10px; 
+        margin-right: 100px;
+        margin-bottom: 150px;
+    }
+    .cart-dropdown {
+    display: none;
+    position: absolute;
+    top: 120px;
+    right: 0;
+    background-color: white;
+    min-width: 430px;
+    height: 650px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.cart-dropdown.show {
+    display: block;
+}
+.close-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 40px;
+    cursor: pointer;
+    color: darkslategrey;
+}
+
+.close-icon:hover {
+    color: red;
+}
+.check{
+    font-family: Roboto;
+    font-size: 22px;
+    top: 575px;
+    left: 160px;
+    position: absolute;
+    border: none;
+    background-color:  darkslategrey;
+    color: white;
+    width: 160px;
+    height: 35px;
+    border-radius: 20px;
+    transition: color 0.1s ease,background-color 0.1s ease,border 0.1s ease;
+}
+.check:hover{
+    cursor: pointer;
+    color: darkslategrey;
+    background-color: white;
+    border: 3px solid darkslategrey;
+}
+    </style>
+</head>
+<body>
+    <div class="TittleBar">
+        <div class="T"><u>TRIO KART</u></div>
+        <div class="tag-line">Explore, Click, Shop.</div>
+        <div class="l"><img class="l-img" src="logo.PNG"></div>
+        <div class="TrioKart"><img class="trio-logo" src="Triokartlogo.PNG"></div>
+        <div class="top">
+            <img class="search-logo" src="searchlogo.png">
+            <input class="search-text" type="text" style="color: white;" placeholder="search">
+            <a href="loginfolder/login.html"><img class="person-logo" src="person.png"></a>
+            <img class="like-logo" src="like.png">
+            <img class="cart-logo" src="cart.png" id="cart-icon">
+            <div class="cart-dropdown" id="cart-dropdown">
+                <span class="close-icon" id="close-icon">&times;</span>
+                <button class="check">Check Out</button>
+            </div>
+        </div>
+        <div class="H"><a  href="Trio Kart.html" class="h">Home</a></div>
+        <div class="Gro">Grocery
+            <div class="dropdown-content">
+                <a href="Grocery/Oil/oil.html">Oils & Ghee</a>
+                <a href="Grocery/Sauce/sauce.html">Sauces & Soups</a>
+                <a href="Grocery/Snacks/snacks.html">Snacks</a>
+                <a href="Grocery/Drinks/drinks.html">Drinks</a>
+            </div>
+        </div>
+        <div class="elec">Electronics
+            <div class="dropdown-content">
+                <a href="#">Laptops</a>
+                <a href="#">SmartPhones</a>
+                <a href="#">Home Appliances</a>
+            </div>
+        </div>
+        <div class="parts">CarParts
+            <div class="dropdown-content">
+                <a href="Car Parts/HeadLight/headlight.html">HeadLights</a>
+                <a href="Car Parts/RearCamera/rearcamera.html">Rear Camera</a>
+                <a href="Car Parts/DoorHandles/doorhandles.html">Door Handles</a>
+                <a href="Car Parts/Tyres/tyres.html">Tyres</a>
+                <a href="Car Parts/Interior/interior.html">Interior</a>
+                <a href="Car Parts/SecuritySensors/securitysensors.html">Security Sensors</a>
+            </div>
+        </div>
+        <div class="BLOG"><a href="signup.html" class="BL">Sign-Up</a></div>
+    </div>
+   <div class="background">
+    <h1 class="Heading"><b>Contact Us</b></h1>
+    <p class="Description"><b>send us an email</b><br><br>Ask us anything! We're here to help.</p>
+    <p class="contact-name">Name</p>
+    <div class="div-name">
+    <input class="Input-name" type="text">
+    </div>
+    <p class="contact-phone">Phone Number</p>
+    <div class="div-phone">
+        <input class="Input-name" type="text">
+    </div>
+    <p class="contact-email">Email</p>
+    <div class="div-email">
+        <input class="Input-email" type="text">
+    </div>
+    <p class="contact-comment">Comment</p>
+    <div class="div-comment">
+        <input class="Input-comment" type="text">
+    </div>
+    <input class="contact-submit" type="submit" value="SUBMIT CONTACT">
+    <div style="margin-top: 30px;">
+        <img class="contact-img" src="contact-image.PNG">
+        <div style="display: flex; align-items: center; margin-top: 10px;">
+            <img class="m-img" src="mail.png" style="margin-right: 10px;margin-left: 500px; margin-top: -550px;">
+            <p class="mail" style="color: black; font-size: 18px; font-family: Arial, sans-serif;margin-top: -530px;">info@triokart.com.pk</p>
+        </div>
+        <div class="socialmedia" style="display: flex; align-items: center; margin-top: 20px;">
+            <button class="contact-facebook-logo"><b>f</b></button>
+            <button class="contact-instagram-logo"><img class="insta-img" src="instagram.png"></button>
+            <button class="contact-twitter-logo"><img class="twitter-img" src="twitter.png"></button>
+            <button class="contact-linkdin-logo"><img class="linkdin-img" src="linkdin.jpg"></button>
+        </div>
+    </div>
+   </div>
+    <div class="Bottom">
+        <div class="d">
+            <p style="color: white; font-size: 20px; font-family: Arial, sans-serif"><b>NEWSLETTER SIGN UP</b></p>
+            <p style="color:gray; font-size: 15px; font-family: Arial, sans-serif">sign up for exclusive updates, new arrivals & insider only discounts</p>
+            <input class="e" type="text" style="color: gray;font-size: 15px;" placeholder="enter your email address">
+            <button class="s"><b>SUBSCRIBE</b></button>
+            <p class="q"><b>QUICK LINKS</b></p>
+            <p class="r"><a href="about.html" class="r">About Us</a></p>
+            <p class="r"><a href="contact.html" class="r">Contact Us</a></p>
+            <p class="r"><a href="store.html" class="r">Store Location</a></p>
+            <p class="r"><a href="privacy.html" class="r">Privacy Policy</a></p>
+            <p class="r"><a href="Terms.html" class="r">Terms And Conditions</a></p>
+            <p class="copywrite">TrioKart @ 2024 . ALL RIGHTS RESERVED</p>
+        </div>
+        <div class="B">
+            <p style="color: white; font-size: 20px; font-family: Arial, sans-serif;"><b>NEED HELP?</b></p>
+            <div style="display: flex; align-items: center;">
+                <img class="m-img" src="mail.png" style="margin-right: 10px;">
+                <p class="mail" style="color: gray; font-size: 15px; font-family: Arial, sans-serif;">info@triokart.com.pk</p>
+            </div>
+            <div class="socialmedia">
+            <button class="facebook-logo"><b>f</b></button>
+            <button class="instagram-logo"><img class="insta-img" src="instagram.png"></button>
+            <button class="twitter-logo"><img class="twitter-img" src="twitter.png"></button>
+            <button class="linkdin-logo"><img class="linkdin-img" src="linkdin.jpg"></button>
+            </div>
+        </div>
+        <div class="cards">
+            <img class="visa-logo" src="visacard.png">
+            <img class="mastercard-logo" src="mastercard.PNG">
+        </div>
+        <div class="map">
+            <img class="map-img" src="map.jpg" alt="Map Image">
+        </div>
+    </div>
+    
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+    const cartIcon = document.getElementById('cart-icon');
+    const cartDropdown = document.getElementById('cart-dropdown');
+    const closeIcon = document.getElementById('close-icon'); // Define closeIcon
+
+    // Add click event listener to the cart icon
+    cartIcon.addEventListener('click', function() {
+        // Toggle the visibility of the dropdown menu
+        cartDropdown.classList.toggle('show');
+    });
+
+    // Add click event listener to the close icon
+    closeIcon.addEventListener('click', function() {
+        cartDropdown.classList.remove('show');
+    });
+});
+</script>
+   
+</body>
+</html>
